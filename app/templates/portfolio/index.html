@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Bienvenido
+{% endblock %}
+
+{% block content %}
+<div class='img-index'>
+  <div class='hero'>
+    <div class="hero-content">
+      <div class="left">
+        <h1>Soy Desarrollador</h1>
+        <h1>Gabo Lara Hormazábal</h1>
+        <p>Construyo aplicaciones en Python dinámicas utilizando bases de datos relacionales</p>
+        <a href='#contacto' class='btn'>Contáctame</a>
+      </div>
+      <div class="right">
+        <img src='{{ url_for('static', filename='Pngtree data analysis isometric illustration.png') }}' width=650px />
+      </div>
+    </div>
+  </div>
+</div>
+{% include 'portfolio/section-firt.html' %}
+{% include 'portfolio/section-second.html' %}
+{% include 'portfolio/section-third.html' %}
+{% endblock %}

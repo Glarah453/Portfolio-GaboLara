@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<title>{% block title %}{% endblock %} - Portafolio</title>
+<link rel="stylesheet"  href="{{ url_for('static', filename='style.css') }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap" rel="stylesheet"> 
+<body>
+  <header>
+    <div class='logo'><img class='logo-img' width=30 src='{{ url_for('static', filename='logo carrera.jpg') }}' /></a><h1>GABO LARA HORMAZÁBAL</h1></div>
+    <nav>
+      <ul>
+        <li><a href='{{ url_for('portfolio.index') }}'>Inicio</a></li>
+        <li><a href='#contacto'>Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>{% block content %}{% endblock %}</section>
+  <div class='footer'>
+    <div class='center full-width'>
+      <div class='row'>
+        <h3>Contáctame :)</h3>
+      </div>
+    </div>
+    <div class='center full-width'>
+      <div class='row'>
+        <p>O también puedes seguirme en mis redes sociales.</p>
+      </div>
+    </div>
+    <div class='center full-width social-links'>
+      <div class='row'>
+        <a target="_blank" href='https://github.com/Gabolara453'><img class='social' width=30 src='{{ url_for('static', filename='github.png') }}' /></a>
+        <a target="_blank" href='https://www.facebook.com/Gaboxzhorma/'><img class='social' width=30 src='{{ url_for('static', filename='facebook.png') }}' /></a>
+        <a target="_blank" href='https://www.instagram.com/mr_g4bo0m_d31_dh/'><img class='social' width=30 src='{{ url_for('static', filename='instagram.png') }}' /></a>
+      </div>
+    </div>
+    <div class=' made-width'>
+      <div class='row'>
+        <p>Hecho con 🧡 por Gabo Lara Hormazábal</p>
+      </div>
+    </div>
+  </div>
+</body>
