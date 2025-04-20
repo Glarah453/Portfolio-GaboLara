@@ -34,7 +34,7 @@ Recomendaciones
 ---------------
 Si quieres obtener este portafolio y configurarlo a tu gusto haz esto:
 1. Puedes hacer un [Fork](https://guides.github.com/activities/forking/) del repositorio central para guardarlo en tu repositorio o Clonar el repositorio `git clone https://github.com/USERNAME/Portfolio-GaboLara.git` o lo descargas en formato ZIP.
-2. Configurar tu repositorio con un [token de acceso personal] (https://github.com/settings/tokens)
+2. Configurar tu repositorio con un [token de acceso personal](https://github.com/settings/tokens).
 3. Hacer todos los cambios de colores que quieras en tu sitio Web con [ColorWheel](https://www.canva.com/colors/color-wheel/) o agregando las fuentes que quieras en tu sitio Web. 
 4. Si quieres cambiar las imagenes, busca sitios que te permitan descargar imagenes o pngs de uso libre. La pagina [PNGtree](https://es.pngtree.com/) permite descargar 2 imagenes gratis por dia estando registrado en el sitio Web.
 5. Añadir los archivos con cambios `git add ejemplo.txt` o añadir todos colocando los archivos que se deben ignorar en  `.gitignore` y luego ejecutas el comando `git add .` .
